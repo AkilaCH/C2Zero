@@ -1,0 +1,22 @@
+export const appProperties = {
+  environment: process.env.REACT_APP_ENVIRONMENT,
+  dsn: process.env.REACT_APP_DSN,
+  appHost: process.env.REACT_APP_HOST,
+  tenant: process.env.REACT_APP_TENANT,
+  clientId: process.env.REACT_APP_CLIENT_ID,
+  authorityDomain: process.env.REACT_APP_AUTHORITY_DOMAIN,
+  tenantDomain: process.env.REACT_APP_TENANT_DOMAIN,
+  redirectUri: process.env.REACT_APP_REDIRECT_URI,
+  authorityUrl: 'https://' + process.env.REACT_APP_AUTHORITY_DOMAIN + '/' + process.env.REACT_APP_TENANT_DOMAIN + '/',
+  signInSignupPolicy: process.env.REACT_APP_B2C_SIGNIN_SIGNUP_POLICY,
+  signupPolicy: process.env.REACT_APP_B2C_SIGNUP_POLICY,
+  profileEditPolicy: process.env.REACT_APP_B2C_PROFILE_EDIT_POLICY,
+  changePasswordPolicy: process.env.REACT_APP_B2C_CHANGE_PASSWORD_POLICY,
+  apiHost: process.env.REACT_APP_API_HOST,
+  blobStoreHost: process.env.REACT_APP_BLOB_STORE_HOST,
+  readScope: process.env.REACT_APP_READ_SCOPE,
+  writeScope: process.env.REACT_APP_WRITE_SCOPE,
+  serviceUnavailable: process.env.REACT_APP_SERVICE_UNAVAILABLE,
+  recapchaSiteKey: process.env.REACT_APP_RECAPCHA_SITE_KEY,
+  stripeKey: process.env.REACT_APP_STRIPE_KEY
+};
